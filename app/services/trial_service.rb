@@ -22,6 +22,6 @@ class TrialService
   end
 
 def perform!
-  p @name
+  p @age
 end
 end
