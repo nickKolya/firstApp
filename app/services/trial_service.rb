@@ -1,12 +1,10 @@
 class TrialService
   def initialize(name, surname)
     @name = name
-
-
     @surname = surname
-end
+  end
 
-def perform!
-  p @name
-end
+  def perform!
+    p @name
+  end
 end
