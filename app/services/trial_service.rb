@@ -1,27 +1,12 @@
 class TrialService
-  def initialize(name, surname, lastname, product, user, age, living_place)
+  def initialize(name, surname)
     @name = name
 
 
     @surname = surname
-
-
-    @lastname = lastname
-
-
-    @product = product
-
-
-    @user = user
-
-
-    @age = age
-
-
-    @living_place = living_place
-  end
+end
 
 def perform!
-  p @age
+  p @name
 end
 end
